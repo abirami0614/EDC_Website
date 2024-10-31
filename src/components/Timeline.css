@@ -1,0 +1,9 @@
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    margin: 10px 0;
+  }
+  

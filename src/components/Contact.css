@@ -1,0 +1,79 @@
+/* src/components/Contact.css */
+
+.contact {
+    background-color: #282c34; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    padding: 40px 20px;
+    border-top: 5px solid #007bff; /* Top border for styling */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input, .form-textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.form-input {
+    background-color: #444c56; /* Darker input background */
+    color: #ffffff; /* White text color */
+}
+
+.form-textarea {
+    resize: none;
+    height: 100px;
+    background-color: #444c56; /* Darker textarea background */
+    color: #ffffff; /* White text color */
+}
+
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact {
+        padding: 20px;
+    }
+    
+    .contact h2 {
+        font-size: 1.5em;
+    }
+}

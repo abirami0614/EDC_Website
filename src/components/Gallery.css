@@ -1,0 +1,48 @@
+/* src/components/Gallery.css */
+
+.gallery-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #271911; /* Dark background */
+  overflow: hidden; /* Prevent overflow of the container */
+}
+
+.gallery-container h2 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  transition: transform 1s ease; /* Smooth transition for image movement (slower) */
+}
+
+.gallery-item {
+  min-width: 300px; /* Minimum width of each image */
+  margin: 0 10px; /* Spacing between images */
+  position: relative;
+  transition: transform 0.5s ease; /* Smooth transition */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove bottom spacing */
+  border-radius: 10px; /* Match rounded corners */
+}
+
+.gallery-item:hover {
+  z-index: 1; /* Bring the hovered image to the front */
+}
+
+.gallery-item:first-child:hover,
+.gallery-item:last-child:hover {
+  transform: rotate(5deg); /* Rotate only the first and last images */
+}
+
+.instruction {
+  color: #ccc;
+  margin-top: 15px;
+}
