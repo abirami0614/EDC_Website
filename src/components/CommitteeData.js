@@ -2,14 +2,14 @@
 
 const committeeData = [
     {
-      name: "Alex Johnson",
+      name: "Harish Kumar",
       role: "President",
-      photo: "/images/c1.jpg" // Ensure this path is correct
+      photo: "/LakshyaMembers/Harish Kumar.jpg" // Ensure this path is correct
     },
     {
-      name: "Bella Reyes",
+      name: "Srithaja",
       role: "Vice President",
-      photo: "/images/c1.jpg"
+      photo: "/LakshyaMembers/srithaja.jpg"
     },
     {
       name: "Chris Evans",
@@ -19,6 +19,11 @@ const committeeData = [
     {
       name: "Dana Lee",
       role: "Treasurer",
+      photo: "/images/c1.jpg"
+    },
+    {
+      name: "Chris Evans",
+      role: "Event Manager",
       photo: "/images/c1.jpg"
     },
 
@@ -33,6 +38,11 @@ const committeeData = [
       role: "Treasurer",
       photo: "/images/c1.jpg"
     }
+    , {
+      name: "Chris Evans",
+      role: "Event Manager",
+      photo: "/images/c1.jpg"
+    },
   ];
   
   export default committeeData;

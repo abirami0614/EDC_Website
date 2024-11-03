@@ -9,7 +9,7 @@ const Statistics = () => {
 
     useEffect(() => {
         const increment = setInterval(() => {
-            setMembers((prev) => Math.min(prev + 1, 150));
+            setMembers((prev) => Math.min(prev + 1, 220));
             setEvents((prev) => Math.min(prev + 1, 30));
             setPartners((prev) => Math.min(prev + 1, 10));
         }, 50); // Adjust the speed here

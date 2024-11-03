@@ -3,7 +3,7 @@
 .gallery-container {
   text-align: center;
   padding: 40px 20px;
-  background-color: #271911; /* Dark background */
+  background-color: #0d0d0d; /* Dark background */
   overflow: hidden; /* Prevent overflow of the container */
 }
 

@@ -2,7 +2,7 @@
 .hero {
     position: relative;
     height: 80vh;
-    background: url("D:/Desktop/html,css,js/edc/edc-website/public/images/bg.png") no-repeat center center/cover;
+    background: url("D:\Desktop\edc-website\public\images\lakshaya_logo.jpg") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
   }
   
   .hero-title {
-    color: #f57b17;
+    color: #ffd700;
     font-size: 4em;
     margin: 0;
     z-index: 1;

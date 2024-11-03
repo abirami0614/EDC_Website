@@ -1,9 +1,11 @@
 .timeline ul {
     list-style-type: none;
     padding: 0;
+    background-color: #0d0d0d;
   }
   
   .timeline li {
+    background-color: #0d0d0d;
     margin: 10px 0;
   }
   
